@@ -91,13 +91,17 @@ body{
 /* ----------------------------
 2. header-area
 ------------------------------*/
-.header-area{}
+.header-area{
+	
+}
 .header-top-bar{
 	background: #062f3c none repeat scroll 0 0;
 	color: #fff;
 	font-size: 12px;
 	height: 40px;
 	line-height: 40px;
+	
+	
 }
 .header-top-left{}
 .header-top-menu{
@@ -113,6 +117,7 @@ body{
 }
 .header-top-menu ul ul{
 	background:#062F3C;
+
 }
 .header-top-menu ul .dropdown-menu{
 	left: -35%;
@@ -128,6 +133,7 @@ body{
 .header-top-menu ul li a:hover{
 	color:#FFA726;
 	background:none;
+	color: palegreen;
 }
 .header-top-left p{
 	float:left;
@@ -151,6 +157,8 @@ body{
 .header-bottom{
 	background:#00405D;
 	padding:20px 0;
+	background-color: orange;
+	
 }
 .header-logo{}
 .search-chart-list{
@@ -190,6 +198,7 @@ body{
 	display: block;
 	font-size: 16px;
 	padding: 7px 20px 8px;
+	background-color: orange;
 }
 .catagori-menu ul ul a{
 	background:none;
