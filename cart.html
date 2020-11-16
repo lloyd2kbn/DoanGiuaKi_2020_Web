@@ -115,12 +115,12 @@
 						<div class="header-top-right">
 							<ul class="list-inline">
 								<li><a href="#"><i class="fa fa-user"></i>Tài Khoản</a></li>
-								<li><a href="#"><i class="fa fa-heart"></i>sản phẩm yêu
+								<li><a href="look-book.html"><i class="fa fa-heart"></i>sản phẩm yêu
 										thích</a></li>
 								<li><a href="checkout.html"><i
 										class="fa fa-check-square-o"></i>Thanh Toán</a></li>
-								<li><a href="#"><i class="fa fa-lock"></i>Đăng nhập</a></li>
-								<li><a href="#"><i class="fa fa-pencil-square-o"></i>Đăng
+								<li><a href="login.html"><i class="fa fa-lock"></i>Đăng nhập</a></li>
+								<li><a href="register.html"><i class="fa fa-pencil-square-o"></i>Đăng
 										kí</a></li>
 							</ul>
 						</div>
@@ -162,45 +162,8 @@
 							<div class="header-chart">
 								<ul class="list-inline">
 									<li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
-									<li class="chart-li"><a href="#">giỏ hàng</a>
-										<ul>
-											<li>
-												<div class="header-chart-dropdown">
-													<div class="header-chart-dropdown-list">
-														<div class="dropdown-chart-left floatleft">
-															<a href="#"><img src="img/product/best-product-1.png"
-																alt="list"></a>
-														</div>
-														<div class="dropdown-chart-right">
-															<h2>
-																<a href="#">Feugiat justo lacinia</a>
-															</h2>
-															<h3>Qty: 1</h3>
-															<h4>£80.00</h4>
-														</div>
-													</div>
-													<div class="header-chart-dropdown-list">
-														<div class="dropdown-chart-left floatleft">
-															<a href="#"><img src="img/product/best-product-2.png"
-																alt="list"></a>
-														</div>
-														<div class="dropdown-chart-right">
-															<h2>
-																<a href="#">Aenean eu tristique</a>
-															</h2>
-															<h3>Qty: 1</h3>
-															<h4>£70.00</h4>
-														</div>
-													</div>
-													<div class="chart-checkout">
-														<p>
-															subtotal<span>£150.00</span>
-														</p>
-														<button type="button" class="btn btn-default">Chckout</button>
-													</div>
-												</div>
-											</li>
-										</ul></li>
+									<li class="chart-li"><a href="cart.html">giỏ hàng</a>
+										</li>
 									<li><a href="cart.html">0 sản phẩm</a></li>
 								</ul>
 							</div>
@@ -236,10 +199,10 @@
 										<li><a href="men.html">Đồ Nam</a></li>
 										<li><a href="women.html">Đồ Nữ</a></li>
 										<li><a href="kids.html">Đồ Trẻ Em</a></li>
-										<li><a href="gift.html">Quà Tặng </a></li> <
+										<li><a href="gift.html">Quà Tặng </a></li> 
 										<li><a href="404.html">Error 404</a></li>
 									</ul></li>
-								<li><a href="contact.html">Giảm Giá</a></li>
+								<li><a href="contact.html">Liên Hệ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -308,9 +271,9 @@
 		<div class="breadcurb-area">
 			<div class="container">
 				<ul class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li>Chart</li>
+					<li><a href="index.html">Trang Chủ</a></li>
+					<li><a href="#">Trang</a></li>
+					<li>Mua Hàng</li>
 				</ul>
 			</div>
 		</div>
@@ -323,13 +286,13 @@
 							<table class="col-md-12">
 								<thead>
 									<tr>
-										<th class="th-product">Product</th>
-										<th class="th-details">Details</th>
-										<th class="th-edit">Edit</th>
-										<th class="th-qty">Qty</th>
-										<th class="th-price">Price</th>
-										<th class="th-total">Sub Total</th>
-										<th class="th-delate">Delete</th>
+										<th class="th-product">Sản Phẩm</th>
+										<th class="th-details">Chi Tiết</th>
+										<th class="th-edit">Biên Tập</th>
+										<th class="th-qty">Số Lượng</th>
+										<th class="th-price">GIá</th>
+										<th class="th-total">Tổng Phụ</th>
+										<th class="th-delate">Xóa</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -409,8 +372,8 @@
 							</table>
 						</div>
 						<div class="cart-button">
-							<button type="button" class="btn">Continue Shopping</button>
-							<button type="button" class="btn floatright">Update Cart</button>
+							<button type="button" class="btn">Tiếp Tục Mua Sắm</button>
+							<button type="button" class="btn floatright">Cập Nhật Giỏ Hàng</button>
 						</div>
 					</div>
 				</div>
@@ -418,52 +381,53 @@
 					<div class="cart-shopping-area fix">
 						<div class="col-md-4 col-sm-4">
 							<div class="calculate-shipping chart-all">
-								<h2>CALCULATE SHIPPING</h2>
-								<p>Enter your destination to get a shipping estimate.</p>
+								<h2>Tính Toán Vận Chuyển</h2>
+								<p>
+									Nhập điểm đến của bạn để nhận ước tính vận chuyển.</p>
 								<select>
-									<option>Sellect Country</option>
-									<option>America</option>
-									<option>Afganisthan</option>
-									<option>Bangladesh</option>
-									<option>Chin</option>
-									<option>Japna</option>
+									<option>Chọn Quốc Gia</option>
+									<option>Mỹ</option>
+									<option>Nhật</option>
+									<option>trung quốc </option>
+									
+									
 								</select>
 								<select>
-									<option>State/Provinence</option>
-									<option>Dhaka</option>
-									<option>Borishal</option>
+									<option>Thị Trấn/Thành Phố</option>
+									<option>Hà Nội</option>
+									<option>HCM</option>
 									<option>Gajipur</option>
 									<option>Kustiya</option>
 									<option>Vola</option>
 									<option>Gaibandha</option>
 								</select>
-								<input type="text" placeholder="Zip / Post Code">
-								<button type="button" class="btn">Get A Quote</button>
+								<input type="text" placeholder="Mã Bưu Điện">
+								<button type="button" class="btn">Nhận Báo Giá</button>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="chart-all">
-								<h2>PROMOTIONAL CODE</h2>
-								<p>Enter your destination to get a shipping estimate.</p>
-								<input type="text" placeholder="Zip / Post Code">
-								<button type="button" class="btn">Get A Quote</button>
+								<h2>Mã Khuyến Mãi</h2>
+								<p>Nhập điểm đến của bạn để nhận ước tính vận chuyển.</p>
+								<input type="text" placeholder="Mã Bưu Điện">
+								<button type="button" class="btn">Nhận Báo Giá</button>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="shopping-summary chart-all">
 								<div class="shopping-cost-area">
-									<h2>SHOPPING BAG SUMMARY</h2>
+									<h2>Tóm Tắt giỏ Hàng</h2>
 									<div class="shopping-cost">
 										<div class="shopping-cost-left">
-											<p>Sub Total </p>
-											<p>GRAND TOTAL </p>
+											<p>Tổng Phụ </p>
+											<p>Tổng Cộng </p>
 										</div>
 										<div class="shopping-cost-right">
 											<p>$2.010.00</p>
 											<p>$2.010.00</p>
 										</div>
 									</div>
-									<button type="button" class="btn">Proceed to Checkout</button>
+									<button type="button" class="btn">Tiến Hành Kiểm Tra</button>
 								</div>
 							</div>
 						</div>
